@@ -9,7 +9,8 @@ import 'vue-material/dist/vue-material.min.css'
 
 Vue.config.productionTip = false
 
-Vue.use(MdList, MdToolbar)
+Vue.use(MdList)
+Vue.use(MdToolbar)
 
 /* eslint-disable no-new */
 new Vue({
